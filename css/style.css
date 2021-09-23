@@ -1,0 +1,25 @@
+html {
+    background-color: #5a6d8c;
+}
+
+#meme {
+    display: grid;
+    justify-items: center;
+}
+
+#meme span {
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#today {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+    font-style: italic;
+}
