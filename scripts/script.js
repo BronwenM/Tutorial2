@@ -19,6 +19,7 @@ async function displayMeme() {
 
         const image = document.createElement("img");
         image.src = meme.url;
+
         image.alt = meme.name;
         image.width = 200;
 
