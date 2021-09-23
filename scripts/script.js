@@ -5,6 +5,9 @@ function initializeApp() {
     displayTodayDate();
 };
 
+
+//new commit
+
 async function displayMeme() {
     try {
         const response = await fetch("https://api.imgflip.com/get_memes");
@@ -16,6 +19,7 @@ async function displayMeme() {
 
         const image = document.createElement("img");
         image.src = meme.url;
+
         image.alt = meme.name;
         image.width = 200;
 
